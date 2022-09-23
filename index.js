@@ -32,3 +32,11 @@ function increaseGuestScoreThree(){
     guestScore += 3
     guestStoreEl.textContent = guestScore
 }
+
+function reset() {
+    homeScore = 0
+    guestScore = 0
+    guestStoreEl.textContent = guestScore
+    homeStoreEl.textContent = homeScore
+    console.log(homeScore)
+}
