@@ -4,7 +4,6 @@
          url('cursedtimerulil-aznm-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
 }
 
 body {
@@ -45,6 +44,19 @@ body {
     width: 45px;
     font-family: "cursed_timer_ulilregular";
     font-size: 13px;
+    color: #9AABD8;
+    background-color: #1B2549;
+}
+
+#newgame {
+    margin: auto;
+    width: auto;
+    border: 3px solid #9AABD8;
+    padding: 10px;
+    text-align: center;
+    display: block;
+    font-family: "cursed_timer_ulilregular";
+    border-radius: 30px;
     color: #9AABD8;
     background-color: #1B2549;
 }
